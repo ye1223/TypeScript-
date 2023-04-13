@@ -17,6 +17,7 @@ function errorFunc(): never {
 }
 
 function getNum({ one, two }: { one: number, two: number}){
+    console.log('one',one) //1
     return one
 }
 const res = getNum({one:1,two:2}) */

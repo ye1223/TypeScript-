@@ -1,5 +1,5 @@
 /* let count: number = 1
-// count = 'jssj'  //报错，必须是number类型
+count = 'jssj'  //报错，必须是number类型
 count = 2
 
 

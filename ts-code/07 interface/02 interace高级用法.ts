@@ -11,15 +11,7 @@ interface SuperPeople extends People{
     rescue(): string
 }
 
-class Person implements People{
-    name = 'levy'
-    age = 21
-    sex: Sex = 'male'
 
-    get(): void {
-        console.log('aaaa')
-    }
-}
 
 const superman: SuperPeople ={
     name: '超人',

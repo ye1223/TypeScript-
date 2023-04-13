@@ -5,7 +5,7 @@ const banana: {
 } = {
     name: '香蕉',
     year: 3
-}
+}s
 // 数组对象类型
 const banana1: string [] = ['香蕉','3']
 

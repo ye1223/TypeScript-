@@ -16,7 +16,7 @@ const getInfo = (index: number): Info =>{
     return infoArr[index]
 }
 
-setInfo('张三', 18, 1,'啦啦啦')
+setInfo('张三', 18, 1,'这是我的个人简介...')
 console.log('成功获取索引信息',getInfo(0))
 
 
@@ -30,5 +30,5 @@ function test({name,age,sex}:Info): void{
     console.log('lalla',name,age,sex)
     console.log(person)
 }
-// test({'张三',12,1}) //需要类型断言
+test({name: '张三',age: 12,sex: 1})
 test({name:person.name,age:person.age,sex:person.sex}) */

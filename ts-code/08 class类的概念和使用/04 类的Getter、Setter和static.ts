@@ -1,4 +1,4 @@
-class Person{
+/* class Person{
     constructor(private _age: number){
     }
     get age(): number{
@@ -26,3 +26,4 @@ console.log(person2.sayName())
 
 console.log(Person2.sayName2())
 
+ */

@@ -11,8 +11,7 @@ class People{
 const people = new People()
 console.log(people.sayName())
 
-class Person extends People{
-    
+class Person extends People{ 
     sex = '男'
     lala(){ //重写
         console.log('oh lala')
